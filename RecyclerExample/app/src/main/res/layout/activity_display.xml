@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayActivity">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="258dp"
+        android:src="@drawable/tomato"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/album_display"/>
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        android:layout_below="@+id/album_display"
+        android:paddingTop="19dp"
+        android:paddingBottom="19dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="13dp"
+        android:textSize="11dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="17dp"
+        android:shadowColor="#000000"
+
+
+         />
+    
+</RelativeLayout>
